@@ -5,8 +5,10 @@ require 'scraperwiki'
 require 'nokogiri'
 require 'colorize'
 require 'pry'
-require 'open-uri/cached'
-OpenURI::Cache.cache_path = '.cache'
+require 'scraped_page_archive/open-uri'
+# require 'open-uri/cached'
+
+# OpenURI::Cache.cache_path = '.cache'
 
 class String
   def tidy
@@ -26,7 +28,7 @@ def scrape_list(url)
     raise "No link" if link.empty?
     link = URI.join(url, link).to_s
 
-    data = { 
+    data = {
       id: link.split('/').last,
       name: tds[1].text.tidy,
       faction: tds[2].text.sub('Фракция ','').tidy,
