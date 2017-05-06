@@ -17,17 +17,25 @@ response:
     code: 200
     message: OK
   headers:
+    Server:
+    - nginx
+    Date:
+    - Sat, 06 May 2017 06:05:55 GMT
+    Content-Type:
+    - text/html; charset=UTF-8
+    Transfer-Encoding:
+    - chunked
     Connection:
-    - close
+    - keep-alive
+    Set-Cookie:
+    - PHPSESSID=1pmi8qngovnog3d10dhav1atj2; path=/; domain=duma.gov.ru; HttpOnly
+    Expires:
+    - Thu, 19 Nov 1981 08:52:00 GMT
+    Cache-Control:
+    - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
     Pragma:
     - no-cache
-    Cache-Control:
-    - no-cache
-    Content-Type:
-    - text/html
-    Content-Length:
-    - '251'
   body:
-    encoding: UTF-8
+    encoding: ASCII-8BIT
   http_version: 
-recorded_at: Fri, 05 May 2017 06:10:23 GMT
+recorded_at: Sat, 06 May 2017 07:05:44 GMT
