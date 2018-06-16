@@ -1,0 +1,41 @@
+---
+request:
+  method: get
+  uri: http://old.duma.gov.ru/structure/deputies/?letter=%D0%92%D1%81%D0%B5
+  body:
+    encoding: US-ASCII
+    string: ''
+  headers:
+    Accept-Encoding:
+    - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+    Accept:
+    - "*/*"
+    User-Agent:
+    - Ruby
+response:
+  status:
+    code: 200
+    message: OK
+  headers:
+    Server:
+    - nginx
+    Date:
+    - Sat, 16 Jun 2018 05:42:52 GMT
+    Content-Type:
+    - text/html; charset=UTF-8
+    Connection:
+    - keep-alive
+    Set-Cookie:
+    - PHPSESSID=dkokoutnt915m41pht29eeobj0; path=/; domain=old.duma.gov.ru; HttpOnly
+    Expires:
+    - Thu, 19 Nov 1981 08:52:00 GMT
+    Cache-Control:
+    - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+    Pragma:
+    - no-cache
+    Content-Length:
+    - '60515'
+  body:
+    encoding: ASCII-8BIT
+  http_version: 
+recorded_at: Sat, 16 Jun 2018 06:43:00 GMT
