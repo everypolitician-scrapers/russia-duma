@@ -1,0 +1,35 @@
+---
+request:
+  method: get
+  uri: http://duma.gov.ru/structure/deputies/?letter=%D0%92%D1%81%D0%B5
+  body:
+    encoding: US-ASCII
+    string: ''
+  headers:
+    Accept-Encoding:
+    - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+    Accept:
+    - "*/*"
+    User-Agent:
+    - Ruby
+response:
+  status:
+    code: 301
+    message: Moved Permanently
+  headers:
+    Server:
+    - nginx
+    Date:
+    - Sat, 16 Jun 2018 06:42:52 GMT
+    Content-Type:
+    - text/html
+    Content-Length:
+    - '178'
+    Connection:
+    - keep-alive
+    Location:
+    - http://old.duma.gov.ru/structure/deputies/?letter=%D0%92%D1%81%D0%B5
+  body:
+    encoding: UTF-8
+  http_version: 
+recorded_at: Sat, 16 Jun 2018 06:42:52 GMT
