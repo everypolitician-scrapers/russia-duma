@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Tue, 02 Oct 2018 10:52:40 GMT
+    - Wed, 03 Oct 2018 11:54:56 GMT
     Content-Type:
     - text/html
     Content-Length:
@@ -32,4 +32,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Tue, 02 Oct 2018 10:52:40 GMT
+recorded_at: Wed, 03 Oct 2018 11:54:56 GMT
